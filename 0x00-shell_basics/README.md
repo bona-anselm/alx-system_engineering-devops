@@ -28,4 +28,7 @@ This script moves a particular file from tmp directory to my_first_directory whi
 
 **8-firstdelete**
 This script deletes a file inside a specified directory
+
+**9-firstdirdeletion**
+This script deletes a directory inside a specified directory
  
