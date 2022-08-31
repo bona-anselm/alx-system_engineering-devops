@@ -20,3 +20,6 @@ This script displays current directory contents in
 * with user and group IDs dispayed numerically
 * And hidden files (starting with .)
 
+**6-firstdirectory**
+This script creates a directory named my_first_directory inside the tmp directory
+ 
