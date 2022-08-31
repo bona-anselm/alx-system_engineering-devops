@@ -37,4 +37,7 @@ This script changes the pwd to the previous one
 
 **11-lists**
 This script lists all files hidden or not in the pwd, parent of the pwd, and in the boot directory in that order
- 
+
+**12-file_type**
+This script checks the type of a specified file in a specified directory
+
