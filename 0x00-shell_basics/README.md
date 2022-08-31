@@ -33,4 +33,8 @@ This script deletes a file inside a specified directory
 This script deletes a directory inside a specified directory
 
 **10-back**
-This script changes the pwd to the previous one 
+This script changes the pwd to the previous one
+
+**11-lists**
+This script lists all files hidden or not in the pwd, parent of the pwd, and in the boot directory in that order
+ 
