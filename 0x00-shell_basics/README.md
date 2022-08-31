@@ -31,4 +31,6 @@ This script deletes a file inside a specified directory
 
 **9-firstdirdeletion**
 This script deletes a directory inside a specified directory
- 
+
+**10-back**
+This script changes the pwd to the previous one 
