@@ -22,4 +22,7 @@ This script displays current directory contents in
 
 **6-firstdirectory**
 This script creates a directory named my_first_directory inside the tmp directory
+
+**7-movethatfile**
+This script moves a particular file from tmp directory to my_first_directory which is inside tmp directory
  
