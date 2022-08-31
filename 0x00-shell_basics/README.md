@@ -25,4 +25,7 @@ This script creates a directory named my_first_directory inside the tmp director
 
 **7-movethatfile**
 This script moves a particular file from tmp directory to my_first_directory which is inside tmp directory
+
+**8-firstdelete**
+This script deletes a file inside a specified directory
  
