@@ -6,3 +6,7 @@ This script lists the content of the current working directory
 
 **2-bring_me_home**
 This script takes you back to home directory
+
+**3-listfiles**
+This script lists the content of the current directory in long format
+
