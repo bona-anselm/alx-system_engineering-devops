@@ -10,3 +10,6 @@ This script takes you back to home directory
 **3-listfiles**
 This script lists the content of the current directory in long format
 
+**4-listmorefiles**
+This script lists all the contents of the current working directory including hidden files in long format
+ 
