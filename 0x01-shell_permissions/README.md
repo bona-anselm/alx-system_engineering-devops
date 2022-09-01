@@ -31,4 +31,7 @@ This script gives owner full access, execute permission to group, and write and 
 **10-mirror_permissions**
 This script mirrors permissions set on another user's file which give  read and write access to owner and gruop users but gives only read access to other users
 
+**11-directories**
+This adds execute permissions to all subdirectories in the current directory
+
 
