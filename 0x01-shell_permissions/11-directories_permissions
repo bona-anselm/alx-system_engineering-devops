@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod ugo+drwxr-xr-x ./ ..
+chmod ugo+x . /..
