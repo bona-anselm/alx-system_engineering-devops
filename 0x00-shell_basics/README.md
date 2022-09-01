@@ -52,4 +52,6 @@ This moves all files beginning with uppper case letter to the specified director
 **101-clean_emacs**
 This script deletes files ending with ~
 
+**102-tree**
+This script creates a directory with two sundirectories
 
