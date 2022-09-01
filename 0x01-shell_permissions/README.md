@@ -46,4 +46,7 @@ This script changes the owner to vincent and group to school
 **101-symbolic_link_permissions**
 This script changes the owner and the group owner of _hello to vincent and staff respectively
 
+**102-if_only**
+This script changes the owner of the file __helo__ to __betty__ only if it's owned by the user guillaume
+
 
