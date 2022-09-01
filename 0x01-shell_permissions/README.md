@@ -40,4 +40,7 @@ This creates a dir with permissions
 **13-change_group**
 This script chnages the group owner of one file to another
 
+**100-change_owner_and_group**
+This script changes the owner to vincent and group to school
+
 
