@@ -58,3 +58,5 @@ This script creates a directory with two sundirectories
 **103-commas**
 This script lists all the files and directories of the current directory, separated by commas. It shown hidden files also
 
+**school.mgc**
+This is a magic file that can be used with the command file to detect school data files that always contain the string SHOOL at offset 0
