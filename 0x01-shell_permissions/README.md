@@ -34,4 +34,7 @@ This script mirrors permissions set on another user's file which give  read and 
 **11-directories**
 This adds execute permissions to all subdirectories in the current directory
 
+**12-directory_permissions**
+This creates a dir with permissions
+
 
