@@ -43,4 +43,7 @@ This script chnages the group owner of one file to another
 **100-change_owner_and_group**
 This script changes the owner to vincent and group to school
 
+**101-symbolic_link_permissions**
+This script changes the owner and the group owner of _hello to vincent and staff respectively
+
 
