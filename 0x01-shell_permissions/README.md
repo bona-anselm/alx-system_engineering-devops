@@ -27,3 +27,8 @@ This script gives owner and gruop no permissions but gives other users all permi
 
 **9-John_Doe**
 This script gives owner full access, execute permission to group, and write and execute permission to other users
+
+**10-mirror_permissions**
+This script mirrors permissions set on another user's file which give  read and write access to owner and gruop users but gives only read access to other users
+
+
