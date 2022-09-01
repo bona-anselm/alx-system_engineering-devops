@@ -44,3 +44,5 @@ This script checks the type of a specified file in a specified directory
 **13-symbolic_links**
 This script creates the symbolic link __ls__ to /bin/ls
 
+**14-copy_html**
+This script copies all the HTML files from the current working directory to the parent directory but copies only files that does not exist in the parent directory or were newer than the versions in the parent working directory
