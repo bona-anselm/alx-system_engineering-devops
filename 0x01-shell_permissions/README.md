@@ -22,3 +22,6 @@ This script adds execute permission to the file owner and the group owener, and 
 **7-everybody**
 This script adds execution permission to the owner, the group owner and the other users to the specified file
 
+**8-James_Bond**
+This script gives owner and gruop no permissions but gives other users all permissions
+
