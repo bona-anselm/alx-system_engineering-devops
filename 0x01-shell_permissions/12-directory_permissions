@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir –m751 my_dir
+install –m 751 my_dir
