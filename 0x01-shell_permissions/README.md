@@ -25,3 +25,5 @@ This script adds execution permission to the owner, the group owner and the othe
 **8-James_Bond**
 This script gives owner and gruop no permissions but gives other users all permissions
 
+**9-John_Doe**
+This script gives owner full access, execute permission to group, and write and execute permission to other users
