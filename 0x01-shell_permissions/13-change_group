@@ -1,2 +1,2 @@
 #!/bin/bash
-chgrp vagrant school
+chgrp school hello
