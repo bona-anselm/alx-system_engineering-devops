@@ -41,3 +41,6 @@ This script lists all files hidden or not in the pwd, parent of the pwd, and in 
 **12-file_type**
 This script checks the type of a specified file in a specified directory
 
+**13-symbolic_links**
+This script creates the symbolic link __ls__ to /bin/ls
+
