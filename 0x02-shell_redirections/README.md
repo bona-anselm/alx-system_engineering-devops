@@ -1,4 +1,7 @@
 **0-hello_world**
-This script prints the strings __Hello, world__ followed by a new lineto the standard output.
+This script prints the strings _Hello, world_ followed by a new line to the standard output.
 
-
+|**Scripts   |Functions   | 
+|------------|------------|   
+|            |            |  
+|            |            | 
