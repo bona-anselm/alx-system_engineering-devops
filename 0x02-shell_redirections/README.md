@@ -11,6 +11,9 @@ This script prints the strings _Hello, world_ followed by a new line to the stan
 |**5-firstlines**             |Displays the first 10 lines of ```/etc/passwd```                                                    |
 |**6-third_line**             |Displays the third line of the file ```iacta```                                                     |
 |**7-file**                   |This script creates a file named ```\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)``` with a text inside    |
+|**8-cwd_state**              |Ths script writes into the file ```ls_cwd_content``` the result of the command ```ls -la```         |
+|                             |                                                                                                    |
+|                             |                                                                                                    |
 |                             |                                                                                                    |
 |                             |                                                                                                    |
  
