@@ -17,7 +17,7 @@ This script prints the strings _Hello, world_ followed by a new line to the stan
 |**11-directories**           |This script counts the number of directories and sub-directories in the current directory           |
 |**12-newest_files**          |This script displays the 10 newest files in the current director                                    |
 |**13-unque**                 |This script takes a list of words as input and prints only words that appear exactly once           |
-|**14-findthatword**          |Displays lines containing the pattern "root" from the file /etc/passwd                              |
-|                             |                                                                                                    |
+|**14-findthatword**          |Displays lines containing the pattern "root" from the file ```/etc/passwd```                        |
+|**15-countthatword**         |Displays the number of lines that contain the pattern “bin” in the file ```/etc/passwd```           |
 |                             |                                                                                                    |
  
