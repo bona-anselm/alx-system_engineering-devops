@@ -1,7 +1,8 @@
 **0-hello_world**
 This script prints the strings _Hello, world_ followed by a new line to the standard output.
 
-|**Scripts   |Functions   | 
-|------------|------------|   
-|            |            |  
-|            |            | 
+|**Scripts**                  |**Functions**                                                                                       | 
+|-----------------------------|----------------------------------------------------------------------------------------------------|   
+|**0-hello_world**            |Prints *Hello, World* to the standard output                                                        |  
+|**1-confused_smiley**        |Displays a confused smiley "(Ôo)'                                                                   |
+|                             |                                                                                                    | 
