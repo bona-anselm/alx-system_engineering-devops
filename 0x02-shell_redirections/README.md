@@ -26,5 +26,7 @@ This script prints the strings _Hello, world_ followed by a new line to the stan
 |**20-hiago**                 |This script removes all letters c and C from input                                                    |
 |**21-reverse**               |This script reverses its input                                                                        |
 |**22-users_and_homes**       |This script displays all users and their home directories, sorted by users                            |
+|**100-empty_casks**          |This script finds all empty files and directories in the current directory and all sub-directories    |
 |                             |                                                                                                      |
- 
+|                             |                                                                                                      |
+|                             |                                                                                                      | 
