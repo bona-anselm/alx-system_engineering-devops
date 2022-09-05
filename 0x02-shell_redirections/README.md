@@ -25,6 +25,6 @@ This script prints the strings _Hello, world_ followed by a new line to the stan
 |**19-AZ**                    |Replaces all characters A and c from input to Z and e respectively                                    |
 |**20-hiago**                 |This script removes all letters c and C from input                                                    |
 |**21-reverse**               |This script reverses its input                                                                        |
-|                             |                                                                                                      |
+|**22-users_and_homes**       |This script displays all users and their home directories, sorted by users                            |
 |                             |                                                                                                      |
  
