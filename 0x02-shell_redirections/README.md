@@ -13,7 +13,7 @@ This script prints the strings _Hello, world_ followed by a new line to the stan
 |**7-file**                   |This script creates a file named ```\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)``` with a text inside    |
 |**8-cwd_state**              |Ths script writes into the file ```ls_cwd_content``` the result of the command ```ls -la```         |
 |**9-duplicate_last_line**    |This script duplicates the last line of the file ```iacta```                                        |
-|                             |                                                                                                    |
+|**10-no_more_js**            |This script deletes all file with a ```.js``` extension in the current directory & all its subfolder|
 |                             |                                                                                                    |
 |                             |                                                                                                    |
  
