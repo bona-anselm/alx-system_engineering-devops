@@ -15,5 +15,9 @@ This script prints the strings _Hello, world_ followed by a new line to the stan
 |**9-duplicate_last_line**    |This script duplicates the last line of the file ```iacta```                                        |
 |**10-no_more_js**            |This script deletes all file with a ```.js``` extension in the current directory & all its subfolder|
 |**11-directories**           |This script counts the number of directories and sub-directories in the current directory           |
+|**12-newest_files**          |This script displays the 10 newest files in the current director                                    |
+|                             |                                                                                                    |
+|                             |                                                                                                    |
+|                             |                                                                                                    |
 |                             |                                                                                                    |
  
