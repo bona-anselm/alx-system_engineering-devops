@@ -11,5 +11,6 @@
 |**8-true_knowledge**       |Prints the value of ```128``` ```+``` ```$TRUEKNOWLEDGE```            |
 |**9-divide_and_rule        |Prints the result of ```POWER / DIVIDE```                             |
 |**10-love_exponent_breath  |Prints the result of ```love exponent breath```			   |
-|                                                                       
+|**11-binary_to_decimal     |converts a number from ```base 2``` to ```10```			   |
+|**								                                                                       
                                                      
