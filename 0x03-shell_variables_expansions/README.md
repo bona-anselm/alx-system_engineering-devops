@@ -9,5 +9,6 @@
 |**6-create_local_variable  |Creates a  local variable					           |
 |**7-create_global_variable |Creates a global variable                                             |
 |**8-true_knowledge**       |Prints the value of ```128``` ```+``` ```$TRUEKNOWLEDGE```            |
-                                                                       
+|**9-divide_and_rule        |Prints the result of ```POWER / DIVIDE```                             |
+|                                                                       
                                                      
