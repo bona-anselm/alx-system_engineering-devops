@@ -1,8 +1,15 @@
-# Changes SSH config file
-file { '/home/user/.ssh/config':
+#!/usr/bin/puppet
+# configures ssh with puppet
+
+include stdlib
+
+file_line { 'nopwd':
   ensure => present,
-  owner  => 'user',
-  group  => 'user',
-  mode   => '0600',
-  content => "Host server\n\tHostName server.example.com\n\tIdentityFile ~/.ssh/school\n\tPasswordAuthentication no\n"
+  line   => 'PasswordAuthentication no',
+  path   => '/etc/ssh/ssh_config',
+}
+file_line { 'identity':
+  ensure => present,
+  line   => 'IdentityFile ~/.ssh/holberton',
+  path   => '/etc/ssh/ssh_config',
 }
