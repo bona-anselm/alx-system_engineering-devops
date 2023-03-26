@@ -10,6 +10,6 @@ file_line { 'nopwd':
 }
 file_line { 'identity':
   ensure => present,
-  line   => 'IdentityFile ~/.ssh/holberton',
+  line   => 'IdentityFile ~/.ssh/school',
   path   => '/etc/ssh/ssh_config',
 }
