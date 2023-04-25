@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """A script that, uses this REST API, for a given employee ID"""
-import sys
 import requests
+import sys
 
 
 if __name__ == "__main__":
