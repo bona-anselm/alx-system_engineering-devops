@@ -7,8 +7,8 @@ import sys
 if __name__ == "__main__":
     url = 'https://jsonplaceholder.typicode.com/'
 
-    user = '{}users/{}'.format(url, sys.argv[1])
-    response = requests.get(user)
+    EMPLOYEE_NAME = '{}users/{}'.format(url, sys.argv[1])
+    response = requests.get(EMPLOYEE_NAME)
     json_response = response.json()  # convert response to json format
 
     print("Employee {} is done with tasks"
@@ -16,12 +16,12 @@ if __name__ == "__main__":
 
     todos = '{}todos?userId={}'.format(url, sys.argv[1])
     response = requests.get(todos)
-    tasks_list = response.json()
-    tasks_completed = []
-    for task in tasks_list:
+    TOTAL_NUMBER_OF_TASKS = response.json()
+    NUMBER_OF_DONE_TASKS = []
+    for task in TOTAL_NUMBER_OF_TASKS:
         if task.get('completed') is True:
-            tasks_completed.append(task)
+            NUMBER_OF_DONE_TASKS.append(task)
 
-    print("({}/{}):".format(len(tasks_completed), len(tasks_list)))
-    for task in tasks_completed:
+    print("({}/{}):".format(len(NUMBER_OF_DONE_TASKS), len(TOTAL_NUMBER_OF_TASKS)))
+    for task in NUMBER_OF_DONE_TASKS:
         print("\t {}".format(task.get("title")))
