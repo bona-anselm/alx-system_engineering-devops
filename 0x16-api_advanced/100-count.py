@@ -43,8 +43,9 @@ def count_words(subreddit, word_list, count_dict=None, after=None):
             title = child['data']['title']
             words = title.lower().split()
             for word in words:
-                if not word.endswith('.') and not word.endswith('!')
-                and not word.endswith('_'):
+                if (not word.endswith('.')
+                        and not word.endswith('!')
+                        and not word.endswith('_')):
                     for keyword in word_list:
                         if keyword.lower() == word:
                             if keyword.lower() not in count_dict:
@@ -59,5 +60,5 @@ def count_words(subreddit, word_list, count_dict=None, after=None):
             return
         count_words(subreddit, word_list, count_dict, after)
     else:
-        print('Invalid subreddit or Reddit API error')
+        #print('Invalid subreddit or Reddit API error')
         return
