@@ -10,10 +10,11 @@ def recurse(subreddit, hot_list=[], after=None):
     headers = {
             "User-Agent": "Linux/1.0"
             }
-    
-    params = {after: 'after'} if after else {} 
 
-    response = requests.get(url, headers=headers, params=params, allow_redirects=False)
+    params = {after: 'after'} if after else {}
+
+    response = requests.get(url, headers=headers, params=params,
+                            allow_redirects=False)
     if response.status_code == 200:
         response = response.json()
         for items in response.get('data').get('children'):
