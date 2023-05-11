@@ -25,8 +25,13 @@ def recurse(subreddit, hot_list=[], after=None):
         "User-Agent": "Linux/1.0"
     }
 
+    # sets the `after` parameter if `after` is not `None`, 
+    # otherwise sets an empty dictionary
+    params = {'after': after} if after else {}
+
     # Send a GET request to the Reddit API
-    response = requests.get(url, headers=headers, allow_redirects=False)
+    response = requests.get(url, headers=headers, params=params,
+                            allow_redirects=False)
 
     # Check if the response is successful
     if response.status_code == 200:
