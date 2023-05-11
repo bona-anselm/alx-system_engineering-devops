@@ -60,5 +60,4 @@ def count_words(subreddit, word_list, count_dict=None, after=None):
             return
         count_words(subreddit, word_list, count_dict, after)
     else:
-        #print('Invalid subreddit or Reddit API error')
         return
