@@ -25,7 +25,7 @@ def recurse(subreddit, hot_list=[], after=None):
         "User-Agent": "Linux/1.0"
     }
 
-    # sets the `after` parameter if `after` is not `None`, 
+    # sets the `after` parameter if `after` is not `None`,
     # otherwise sets an empty dictionary
     params = {'after': after} if after else {}
 
