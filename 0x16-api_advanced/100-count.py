@@ -6,7 +6,7 @@
 import requests
 
 
-def count_words(subreddit, word_list, count_dict=None, after=None):
+def count_words(subreddit, word_list, kwargs={}, after=None):
     """Recursively query the Reddit API, parse the titles of all hot articles,
     and count the occurrence of given keywords. Print the count in descending
     order of occurrence, then alphabetically if the count is the same.
@@ -26,38 +26,28 @@ def count_words(subreddit, word_list, count_dict=None, after=None):
     Returns:
         None
     """
-    url = 'https://www.reddit.com/r/{}/hot.json'.format(subreddit)
-    headers = {
-        'User-Agent': 'Mozilla/5.0'
-        }
+    url = "https://www.reddit.com/r/{}/hot/.json?after={}".format(
+                        subreddit, after)
+    headers = {"User-Agent": "custom"}
 
-    params = {'after': after} if after else {}
-    response = requests.get(url, headers=headers, params=params,
-                            allow_redirects=False)
-
-    if response.status_code == 200:
-        response_data = response.json()['data']
-        if count_dict is None:
-            count_dict = {}
-        for child in response_data['children']:
-            title = child['data']['title']
-            words = title.lower().split()
-            for word in words:
-                if (not word.endswith('.')
-                        and not word.endswith('!')
-                        and not word.endswith('_')):
-                    for keyword in word_list:
-                        if keyword.lower() == word:
-                            if keyword.lower() not in count_dict:
-                                count_dict[keyword.lower()] = 0
-                            count_dict[keyword.lower()] += 1
-        after = response_data['after']
-        if after is None:
-            sorted_counts = sorted(count_dict.items(),
-                                   key=lambda x: (-x[1], x[0]))
-            for keyword, count in sorted_counts:
-                print(keyword, count)
-            return
-        count_words(subreddit, word_list, count_dict, after)
+    data = requests.get(url, headers=headers, allow_redirects=False)
+    if data.status_code == 200:
+        after = data.json().get("data").get("after")
+        data = data.json().get("data").get("children")
+        for entry in data:
+            parse_list = entry.get("data").get("title").lower().split()
+            for word in parse_list:
+                for element in word_list:
+                    if word == element:
+                        if element in kwargs:
+                            kwargs[element] += 1
+                        else:
+                            kwargs[element] = 1
+        if after:
+            count_words(subreddit, word_list, kwargs, after)
+        else:
+            sorted_dict = {k: v for k, v in sorted(kwargs.items(),
+                           key=lambda item: item[1])}
+            [print("{}: {}".format(k, v)) for k, v in sorted_dict.items()]
     else:
-        return
+        return (None)
