@@ -1,5 +1,7 @@
 # A script that increase the limit of cuncurrent tasks
-file { '/etc/default/nginx':
+
+file {
+  '/etc/default/nginx':
   ensure  => file,
-  content => "ULIMIT='-n 2048'\n",
+  content => "ULIMIT='-n 4096'\n",
 }
